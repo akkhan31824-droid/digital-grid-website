@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Grid — Creative Design Studio</title>
+  <meta name="description" content="Digital Grid is a modern creative studio specializing in branding, graphic design, and digital identity." />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 80px 10%;
+      background: linear-gradient(135deg, #0ea5a4, #0369a1);
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+
+    section {
+      padding: 70px 10%;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #5eead4;
+    }
+
+    .about p {
+      max-width: 800px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .service-card {
+      background: #020617;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    .service-card h3 {
+      margin-bottom: 10px;
+      color: #67e8f9;
+    }
+
+    .values {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .value {
+      flex: 1 1 200px;
+      background: #020617;
+      padding: 20px;
+      border-radius: 14px;
+    }
+
+    footer {
+      background: #020617;
+      padding: 40px 10%;
+      text-align: center;
+      color: #94a3b8;
+    }
+
+    footer span {
+      color: #5eead4;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Digital Grid</h1>
+    <p>Where Structure Meets Creativity. We design modern digital identities with clarity, precision, and purpose.</p>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2 class="section-title">About Us</h2>
+    <p>
+      Digital Grid is a modern creative design studio focused on building structured, impactful, and timeless digital identities.
+      We combine strategic thinking with minimal aesthetics to help brands stand out with confidence.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section>
+    <h2 class="section-title">Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Brand Identity</h3>
+        <p>Logo design, brand systems, and visual identity built with clarity and structure.</p>
+      </div>
+      <div class="service-card">
+        <h3>Graphic Design</h3>
+        <p>Clean, modern designs for digital and print platforms.</p>
+      </div>
+      <div class="service-card">
+        <h3>Digital Design</h3>
+        <p>Social media visuals, UI layouts, and digital branding assets.</p>
+      </div>
+      <div class="service-card">
+        <h3>Creative Direction</h3>
+        <p>Strategic design guidance to elevate brand presence.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section>
+    <h2 class="section-title">Our Values</h2>
+    <div class="values">
+      <div class="value">Clarity & Simplicity</div>
+      <div class="value">Structure & Balance</div>
+      <div class="value">Creative Precision</div>
+      <div class="value">Consistency & Trust</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p><span>Digital Grid</span> © 2025 — All Rights Reserved</p>
+    <p>Designing Structure. Powering Digital Identity.</p>
+  </footer>
+
+</body>
+</html>
